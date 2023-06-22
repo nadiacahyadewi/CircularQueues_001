@@ -95,8 +95,13 @@ public:
 				FRONT_position++;
 			}
 			cout << endl;
-
 		}
-
 	}
 }; 
+
+int main() {
+	Queues q;
+	char ch;
+
+
+}
