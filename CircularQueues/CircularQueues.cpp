@@ -116,8 +116,8 @@ int main() {
 
 			switch (ch) {
 			case '1': {
-					q.insert();
-					break;
+				q.insert();
+				break;
 		
 			}
 			case '2': {
@@ -129,6 +129,11 @@ int main() {
 				q.display();
 				return 0;
 			}
+
+			case '4': {
+				return 0;
+			}
+
 
 
 		}
