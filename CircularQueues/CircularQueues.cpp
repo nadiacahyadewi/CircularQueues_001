@@ -125,6 +125,11 @@ int main() {
 				break;
 			}
 
+			case '3': {
+				q.display();
+				return 0;
+			}
+
 
 		}
 	}
