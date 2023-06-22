@@ -118,7 +118,7 @@ int main() {
 			case '1': {
 				q.insert();
 				break;
-		
+
 			}
 			case '2': {
 				q.remove();
@@ -134,8 +134,16 @@ int main() {
 				return 0;
 			}
 
-
-
+			default: {
+				cout << "Invalid option!!" << endl;
+				break;
+			}
+			}
+		}
+		catch (exception& e) {
+			cout << "check the values entered. " << endl;
 		}
 	}
+
+	return 0;
 }
